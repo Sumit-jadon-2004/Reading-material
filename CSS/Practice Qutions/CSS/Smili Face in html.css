@@ -1,0 +1,29 @@
+.face{
+    height: 300px;
+    width: 300px;
+    background-color: #ffa511;
+    border-radius: 100%;
+}
+.mauth{
+    height: 40px;
+    width:150px;
+    background-color: brown;
+    position: absolute;
+    top: 210px;
+    left: 75px;
+    border-radius: 0px 0px 50px 50px;
+}
+.lefteye 
+,.righteye{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.righteye{
+    left: 175px;
+}

@@ -1,0 +1,63 @@
+h1{
+    font-family: arial;
+    color:purple;
+    font-size: 80px;
+    text-align: center;
+    background-color: plum;
+    border: 2px solid black;
+    border-radius: 30px;
+    animation:  3s linear 1s infinite alternate  headingAnimation;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap:10px;
+}
+.container div{
+    background-color: pink;
+    text-align: center;
+    font-size: 20px;
+}
+.head{
+    grid-column: 1/12 span;
+}
+.side{
+    grid-column: 1 / 3 span;
+    grid-row: 2 / 10 span;
+}
+.nav{
+    grid-column: 4 / 6 span;
+}
+.main{
+    grid-column: 4 / 6 span;
+    grid-row: 3 / 9 span;
+}
+.ads{
+    grid-column: 10 / 3 span;
+    grid-row: 2 / 10 span;
+}
+.footer{
+    grid-column: 1/ 12 span;
+
+}
+@media (max-width:720px) {
+    .side{
+        grid-row: 3 / 9 span;
+    }
+    .ads{
+        grid-row: 3 / 9 span;
+    }
+    .nav{
+        grid-column:1  / 12 span;
+    }
+}
+@keyframes headingAnimation{
+    0%{
+       font-size: 10px;
+    }
+    100%{
+        font-size: 80px;
+    }
+}

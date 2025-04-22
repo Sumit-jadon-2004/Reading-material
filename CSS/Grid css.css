@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.container{
+    height: 300px;
+    width: 800px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 10px auto;
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px ; */
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap:10px 10px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items:center;
+
+}
+.item{
+    height: 50px;
+    width: 150px;
+    background-color: lawngreen;
+    text-align: center;
+    border: 2px solid black;
+    align-self: center;
+
+}
+/* .one{
+    grid-column: 1/ 5;
+}
+.two{
+    grid-row:1/3 ;
+} */

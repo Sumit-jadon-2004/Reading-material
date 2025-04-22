@@ -1,0 +1,47 @@
+#myid p{
+    color : green;
+    font-size: 30px;
+}
+button:hover{
+    color: red;
+    background-color: palevioletred;
+}
+button:active{
+    background-color: #000000;
+    color: white;
+}
+div:nth-of-type(1){
+    color: purple;
+    background-color: palegoldenrod;
+}
+p{
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+}
+div input[type="radio"]:checked + label{
+    color: red;
+    background-color: burlywood;
+    font-size: 30px;
+}
+div{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h1::first-letter{
+    color: red;
+}
+p::first-line{
+    color:purple;
+}
+p:active{
+    font-weight: bold;
+    color:chocolate;
+}
+p::selection{
+    background-color: yellow;
+}

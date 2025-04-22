@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+#Playgound{
+    border: 2px solid black;
+    height:400px;
+    width:80%;
+   margin: 10px auto;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap;  */
+    /* align-items: start; */
+    align-content: flex-start;
+}
+.org{
+    /* flex-basis: 100px; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+    flex: 2 2 100px;
+}
+.blue{
+    /* flex-basis: 100px; */
+    /* flex-grow: 3; */
+    flex: 2 2 100px;
+}
+#Playgound div{
+    height:100px;
+    width:400px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}

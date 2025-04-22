@@ -1,0 +1,26 @@
+#nextstep{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 128, 0,0.5);
+}
+#optacity{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin-top: 20px ;  
+    opacity: 0.5;
+    border: 5px solid black;
+}
+#transition{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin:0 auto ;  
+    border: 5px solid black;
+    transition:margin-top ease-in 2s;
+}
+#transition:hover{
+  background-color: rgb(45, 164, 29);
+    border-radius: 100px;
+    margin-top: 100px ;
+}

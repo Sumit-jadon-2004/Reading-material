@@ -1,0 +1,24 @@
+h1{
+    text-align : center;
+    text-decoration: wavy red underline;
+    Line-height: 2;
+    letter-spacing: 10px;
+    font-size : 60px;
+    font-family: Arial;
+}
+h2{
+    text-align : left;
+    Font-weight : bold;
+    text-decoration: Double blue overline;
+    line-height: 1.5;
+    font-size: 40px;
+    font-family: impact;
+    /* letter-spacing: 5px; */
+}
+p{
+    font-weight: bolder;
+    text-decoration :none;
+    line-height: 2;
+    font-size: 20px;
+    /* letter-spacing: 5px; */
+}
