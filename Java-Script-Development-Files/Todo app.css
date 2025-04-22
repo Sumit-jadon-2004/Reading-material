@@ -1,0 +1,29 @@
+h1{
+    color: red;
+}
+body{
+    text-align: center;
+   
+   justify-items: center;
+    align-content: center;
+}
+.remov{
+    background-color: transparent;
+    color: red;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+li{
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+h3{
+    color: brown;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
